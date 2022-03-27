@@ -29,6 +29,15 @@
     </dependency>
   </dependencies>
   
+  <distributionManagement>
+		 <snapshotRepository>
+		    <url>http://54.173.201.4:8081/repository/sample-snapshot/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <url>http://54.173.201.4:8081/repository/sample-releases/</url>
+		</repository>
+  	</distributionManagement>
 
   <build>
     <finalName>myprj</finalName>
